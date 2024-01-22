@@ -1,10 +1,15 @@
 """Arquivo que estudantes devem editar"""
-# iniciando projeto
+import os
+
+
 def show_deepest_file(context):
     if not context["all_files"]:
         print("No files found")
     else:
-        deepest_file = max(context["all_files"], key=len)
+        # função os.path.split(path) divide o caminho (path) em duas partes e
+        # retorna o tamanho/len da tupla contendo essas partes
+        deepest_file = max(context["all_files"],
+                           key=lambda path: len(os.path.split(path)))
         print(f"Deepest file: {deepest_file}")
 
 
