@@ -23,7 +23,7 @@ def directory(tmp_path):
                 "File size in bytes: 19\n"
                 "File type: file\n"
                 "File extension: .txt\n"
-                "Last modified date: 2024-01-22\n"
+                "Last modified date: 2024-01-23\n"
             ),
         ),
         (
@@ -33,7 +33,7 @@ def directory(tmp_path):
                 "File size in bytes: 0\n"
                 "File type: file\n"
                 "File extension: [no extension]\n"
-                "Last modified date: 2024-01-22\n"
+                "Last modified date: 2024-01-23\n"
             ),
         ),
         (
